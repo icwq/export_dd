@@ -81,7 +81,7 @@ class DictionaryHtml
             }
         }
 
-        echo '</div></body></html>';
+        echo '</body></html>';
 
         $str = ob_get_clean();
         return $str;
